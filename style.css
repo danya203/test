@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+}
+img{
+    display: block;
+    margin:  0 auto;
+    width: 400px; height: 300px;
+    border-radius: 3%;
+}
+.music_window{
+    margin:  auto 25%;
+
+}
+audio{
+    display: block;
+    margin:  1% auto;
+}
+
+.buttons{
+    margin: 0 25%;
+    display: flex;
+    justify-content: space-around;   
+}
+li{
+    color:lightyellow;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.active{
+    color: rgb(19, 168, 255);
+    font-size: 16px;
+}
+.music_list{
+    margin-left: 7%;
+}
